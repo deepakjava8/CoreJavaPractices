@@ -1,0 +1,26 @@
+package com.ust.oops;
+
+class P{
+	public void m1() {
+		System.out.println("Parent-Home");
+	}
+	
+	public void m1(int id) {
+		
+	}
+	
+	public void m1(int id,String name) {
+		
+	}
+}
+class C extends P{
+	/*
+	 * public void m1() { System.out.println("Child - Home- with new Interior"); }
+	 */
+}
+public class PolymorDemo {
+public static void main(String[] args) {
+	P p=new P();
+	p.m1();
+}
+}

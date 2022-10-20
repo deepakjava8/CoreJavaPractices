@@ -1,0 +1,42 @@
+package com.test3;
+
+public interface SIMProvider {
+public void networkService();
+public default void newFatures() {
+	System.out.println("Specific new Feature providing");
+}
+}
+
+class Airtel implements SIMProvider{
+
+	@Override
+	public void networkService() {
+		System.out.println("We provide Airtel Network Service");
+		
+	}
+	
+}
+class Docommo implements SIMProvider{
+
+	@Override
+	public void networkService() {
+		System.out.println("We provide Docomo Netork Service");
+		
+	}
+	
+	
+}
+class JIO implements SIMProvider{
+
+	@Override
+	public void networkService() {
+		System.out.println("We provide JIO Network service");
+		
+	}
+	
+	public  void newFatures() {
+		System.out.println("Specific new Feature providing");
+	}
+	
+	
+}

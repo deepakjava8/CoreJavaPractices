@@ -1,0 +1,16 @@
+package com.ust.collection;
+
+import java.util.HashSet;
+import java.util.Set;
+
+public class SetDemo {
+public static void main(String[] args) {
+	Set set=new HashSet();
+	set.add("amit");
+	set.add(20);
+	set.add("amit");
+	set.add(null);
+	set.add(400);
+	System.out.println(set);
+}
+}

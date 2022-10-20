@@ -1,0 +1,13 @@
+package com.test1;
+
+class IntegerPrinter{
+	Integer pringInteger;
+	public Integer getPringInteger() {
+		return pringInteger;
+	}
+}
+public class GenTest1 {
+public static void main(String[] args) {
+	
+}
+}

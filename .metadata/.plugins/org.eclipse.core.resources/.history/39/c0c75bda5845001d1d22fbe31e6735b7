@@ -1,0 +1,27 @@
+package com.ust.employee;
+
+class Parent{
+	public final void m1() {
+		
+	}
+}
+//class Clild extends Parent{
+//	public void m1() {
+//		
+//	}
+//}
+public class EmployeeClient {
+	public static void m1() {
+		System.out.println("static - method");
+	}
+public static void main(String[] args) {
+	
+	 final String panCard="ABCD123";
+	 
+	Employee e1=new Employee(101, "Siva", 10000, "IT");
+	System.out.println(e1);
+	
+	boolean updateEmploye = e1.updateEmploye("Siva Reddy");
+	System.out.println(updateEmploye);
+}
+}

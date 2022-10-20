@@ -1,0 +1,10 @@
+package com.ust.generics;
+
+ class PrintNumber{
+	
+}
+public class CustomGenericsDemo {
+public static void main(String[] args) {
+	
+}
+}

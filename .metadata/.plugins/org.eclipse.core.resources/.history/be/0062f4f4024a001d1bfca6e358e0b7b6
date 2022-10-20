@@ -1,0 +1,12 @@
+package com.test3;
+
+
+interface FunctionalF1{
+	public void m1();
+	public void m2();
+}
+public class MyFunctional {
+
+}
+
+

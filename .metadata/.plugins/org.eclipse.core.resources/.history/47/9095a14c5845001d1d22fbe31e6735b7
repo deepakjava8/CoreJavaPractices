@@ -1,0 +1,11 @@
+package com.ust.employee;
+
+public class EmployeeClient {
+public static void main(String[] args) {
+	Employee e1=new Employee(101, "Siva", 10000, "IT");
+	System.out.println(e1);
+	
+	boolean updateEmploye = e1.updateEmploye("Siva Reddy");
+	System.out.println(updateEmploye);
+}
+}

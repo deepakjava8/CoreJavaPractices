@@ -1,0 +1,16 @@
+package com.test4;
+
+public class CheckPalindrome {
+public static void main(String[] args) {
+	String result = reverseString("AmmA");
+	System.out.println(result);
+}
+public static String reverseString(String str) {
+	char[] array = str.toCharArray();
+	String result="";
+	for(int i=array.length;i>0;i--) {
+		result=result+result.charAt(i);
+	}
+	return result;
+}
+}

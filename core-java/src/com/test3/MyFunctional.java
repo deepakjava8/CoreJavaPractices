@@ -1,0 +1,27 @@
+package com.test3;
+
+import java.util.Arrays;
+import java.util.Collections;
+import java.util.List;
+import java.util.stream.Collector;
+import java.util.stream.Collectors;
+
+@FunctionalInterface
+interface FunctionalF1{
+	public void m1();
+}
+public class MyFunctional {
+public static void main(String[] args) {
+	List<Integer> numbers=Arrays.asList(3,9,1,4,8);
+	List<Customer> custList = List.of(new Customer(1, "Vishnu", List.of(1111,9999)),
+			new Customer(2, "Prem", List.of(2222,8888)),
+			new Customer(3, "Santosh", List.of(4444,77777)));
+	FunctionalF1 f=()->System.out.println("heelo");
+	f.m1();
+	
+	List<Customer> collect = custList.stream().sorted((o1,o2)->o1.getName().compareTo(o2.getName())).collect(Collectors.toList());
+	System.out.println(collect);
+}
+}
+
+

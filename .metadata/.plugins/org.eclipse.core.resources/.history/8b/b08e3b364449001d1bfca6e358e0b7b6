@@ -1,0 +1,18 @@
+package com.ust.generics;
+
+import java.util.ArrayList;
+import java.util.List;
+
+public class GenericsDemo {
+public static void main(String[] args) {
+	List<String> list=new ArrayList<>();
+	list.add("Deepak");
+	//list.add(100);
+	list.add("Sachin");
+	
+	List<Double> list2=new ArrayList<>();
+}
+}
+class Employee{
+	
+}

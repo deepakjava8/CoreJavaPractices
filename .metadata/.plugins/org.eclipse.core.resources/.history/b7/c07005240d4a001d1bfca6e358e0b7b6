@@ -1,0 +1,11 @@
+package com.ust.java8;
+
+
+interface SIMProvider{
+	public void networkService();
+}
+public class DefaultMethodDemo {
+public static void main(String[] args) {
+	
+}
+}

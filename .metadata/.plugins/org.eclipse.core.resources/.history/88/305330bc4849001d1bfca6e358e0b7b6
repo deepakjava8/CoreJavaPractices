@@ -1,0 +1,8 @@
+package com.ust.junit;
+
+public class PrintSquare {
+
+	public int printSqure(int i) {
+		return i*i;
+	}
+}

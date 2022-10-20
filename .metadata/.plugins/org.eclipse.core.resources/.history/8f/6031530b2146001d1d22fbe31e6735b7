@@ -1,0 +1,14 @@
+package com.ust.oops;
+class Engine{
+	
+}
+class Car{
+	Driver driver; // week Association
+	private Engine e;	// strong Association
+}
+class Driver{
+	
+}
+public class AggregationDemo {
+
+}

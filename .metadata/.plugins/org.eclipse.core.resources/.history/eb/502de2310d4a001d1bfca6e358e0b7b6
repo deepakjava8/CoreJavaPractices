@@ -1,0 +1,20 @@
+package com.ust.java8;
+
+
+interface SIMProvider{
+	public void networkService();
+}
+
+class Airtel implements SIMProvider{
+
+	@Override
+	public void networkService() {
+		System.out.println("We provide Aritel Network-service");
+	}
+	
+}
+public class DefaultMethodDemo {
+public static void main(String[] args) {
+	
+}
+}

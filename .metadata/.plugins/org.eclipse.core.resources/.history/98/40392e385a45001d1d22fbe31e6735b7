@@ -1,0 +1,8 @@
+package com.ust.employee;
+
+public class AnimalClient {
+public static void main(String[] args) {
+	Cow c=new Cow();
+	c.printColor();
+}
+}

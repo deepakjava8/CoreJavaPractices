@@ -1,0 +1,9 @@
+package com.ust.employee;
+
+public class Animal {
+	String color="White";
+}
+
+class Cow extends Animal{
+	String color="Black";
+}

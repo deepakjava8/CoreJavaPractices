@@ -1,0 +1,7 @@
+package com.test3;
+
+public class NeworkClient {
+public static void main(String[] args) {
+	Airtel airtel=new Airtel();
+}
+}

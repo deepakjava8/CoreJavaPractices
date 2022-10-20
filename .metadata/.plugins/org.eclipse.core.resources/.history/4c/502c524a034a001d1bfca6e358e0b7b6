@@ -1,0 +1,14 @@
+package com.test3;
+
+@FunctionalInterface
+interface FunctionalF1{
+	public void m1();
+}
+public class MyFunctional {
+public static void main(String[] args) {
+	FunctionalF1 f=()->System.out.println("heelo");
+	f.m1();
+}
+}
+
+

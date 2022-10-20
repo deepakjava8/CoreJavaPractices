@@ -1,0 +1,24 @@
+package com.ust.oops;
+class Engine{
+	private String modelNo;
+	String color;
+	public void setModelNo(String modelNo) {
+		this.modelNo = modelNo;
+	}
+}
+class Car{
+	Driver driver; // week Association
+	 Engine e;	// strong Association
+	 
+	 public void getEngineInfo() {
+		 System.out.println(e.color+"\t"+e.modelNo);
+	 }
+}
+class Driver{
+	
+}
+public class AggregationDemo {
+public static void main(String[] args) {
+	
+}
+}

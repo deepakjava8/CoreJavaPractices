@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?><testrun name="PrintSquareTest" project="core-java" tests="3" started="3" failures="0" errors="0" ignored="0">
+  <testsuite name="com.ust.junit.PrintSquareTest" time="0.007" displayname="PrintSquareTest" uniqueid="[engine:junit-vintage]/[runner:com.ust.junit.PrintSquareTest]">
+    <testcase name="testSayHello_for_nullCheck" classname="com.ust.junit.PrintSquareTest" time="0.005" displayname="testSayHello_for_nullCheck" uniqueid="[engine:junit-vintage]/[runner:com.ust.junit.PrintSquareTest]/[test:testSayHello_for_nullCheck(com.ust.junit.PrintSquareTest)]"/>
+    <testcase name="testSayHello" classname="com.ust.junit.PrintSquareTest" time="0.0" displayname="testSayHello" uniqueid="[engine:junit-vintage]/[runner:com.ust.junit.PrintSquareTest]/[test:testSayHello(com.ust.junit.PrintSquareTest)]"/>
+    <testcase name="testPrintSqure" classname="com.ust.junit.PrintSquareTest" time="0.0" displayname="testPrintSqure" uniqueid="[engine:junit-vintage]/[runner:com.ust.junit.PrintSquareTest]/[test:testPrintSqure(com.ust.junit.PrintSquareTest)]"/>
+  </testsuite>
+</testrun>

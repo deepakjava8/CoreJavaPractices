@@ -1,0 +1,7 @@
+package com.ust.generics;
+
+public class CustomGenericsDemo {
+public static void main(String[] args) {
+	
+}
+}

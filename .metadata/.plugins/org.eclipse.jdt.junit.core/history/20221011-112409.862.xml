@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?><testrun name="SquareJunitTest" project="core-java" tests="4" started="4" failures="0" errors="0" ignored="0">
+  <testsuite name="com.test1.SquareJunitTest" time="0.004" displayname="SquareJunitTest" uniqueid="[engine:junit-vintage]/[runner:com.test1.SquareJunitTest]">
+    <testcase name="testSayHello_shouldThrowAnException_ForNameIsNull" classname="com.test1.SquareJunitTest" time="0.001" displayname="testSayHello_shouldThrowAnException_ForNameIsNull" uniqueid="[engine:junit-vintage]/[runner:com.test1.SquareJunitTest]/[test:testSayHello_shouldThrowAnException_ForNameIsNull(com.test1.SquareJunitTest)]"/>
+    <testcase name="testSayHello" classname="com.test1.SquareJunitTest" time="0.0" displayname="testSayHello" uniqueid="[engine:junit-vintage]/[runner:com.test1.SquareJunitTest]/[test:testSayHello(com.test1.SquareJunitTest)]"/>
+    <testcase name="test" classname="com.test1.SquareJunitTest" time="0.0" displayname="test" uniqueid="[engine:junit-vintage]/[runner:com.test1.SquareJunitTest]/[test:test(com.test1.SquareJunitTest)]"/>
+    <testcase name="testSayHello_shouldThrowAnException_ForNameIsBlank" classname="com.test1.SquareJunitTest" time="0.0" displayname="testSayHello_shouldThrowAnException_ForNameIsBlank" uniqueid="[engine:junit-vintage]/[runner:com.test1.SquareJunitTest]/[test:testSayHello_shouldThrowAnException_ForNameIsBlank(com.test1.SquareJunitTest)]"/>
+  </testsuite>
+</testrun>

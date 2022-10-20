@@ -1,0 +1,17 @@
+package com.ust.oops;
+class Engine{
+	String modelNo;
+	String color;
+}
+class Car{
+	Driver driver; // week Association
+	 Engine e;	// strong Association
+}
+class Driver{
+	
+}
+public class AggregationDemo {
+public static void main(String[] args) {
+	
+}
+}

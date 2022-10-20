@@ -1,0 +1,6 @@
+package com.test3;
+
+public interface MyFunctional {
+	public void m1();
+	public void m2();
+}

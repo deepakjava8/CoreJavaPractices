@@ -1,0 +1,9 @@
+package com.sample;
+
+import lombok.Data;
+import lombok.Setter;
+
+@Data
+public class Employee {
+private String name;
+}

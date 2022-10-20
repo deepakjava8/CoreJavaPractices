@@ -1,0 +1,17 @@
+package com.ust.generics;
+
+class PrintIntegerNumber{
+	Integer integerNumber;
+	public PrintIntegerNumber(Integer integerNumber) {
+		this.integerNumber=integerNumber;
+	}
+	
+	public void print() {
+		System.out.println(integerNumber);
+	}
+}
+public class CustomGenericsDemo {
+public static void main(String[] args) {
+	
+}
+}

@@ -1,0 +1,25 @@
+package com.test3;
+
+public interface SIMProvider {
+public void networkService();
+}
+
+class Airtel implements SIMProvider{
+
+	@Override
+	public void networkService() {
+		System.out.println("We provide Airtel Network Service");
+		
+	}
+	
+}
+class Docommo implements SIMProvider{
+
+	@Override
+	public void networkService() {
+		System.out.println("We provide Docomo Netork Service");
+		
+	}
+	
+	
+}

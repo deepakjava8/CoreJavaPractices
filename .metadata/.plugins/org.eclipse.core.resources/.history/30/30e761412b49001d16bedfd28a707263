@@ -1,0 +1,28 @@
+package com.test1;
+
+class IntegerPrinter{
+	Integer printInteger;
+	public IntegerPrinter(Integer printInteger ) {
+		this.printInteger=printInteger;
+	}
+	public void print() {
+		System.out.println(printInteger);
+	}
+}
+
+class DoublerPrinter{
+	Integer printDouble;
+	public DoublerPrinter(Integer printDouble ) {
+		this.printDouble=printDouble;
+	}
+	public void print() {
+		System.out.println(printDouble);
+	}
+}
+
+public class GenTest1 {
+public static void main(String[] args) {
+	IntegerPrinter ip=new IntegerPrinter(10);
+	ip.print();
+}
+}

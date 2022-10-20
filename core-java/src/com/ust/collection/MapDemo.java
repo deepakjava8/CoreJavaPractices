@@ -1,0 +1,27 @@
+package com.ust.collection;
+
+import java.util.Arrays;
+import java.util.Collections;
+import java.util.HashMap;
+import java.util.Map;
+
+public class MapDemo {
+public static void main(String[] args) {
+	
+//	Collections.sort()
+	Arrays.asList(1,2);
+	Map map=new HashMap();
+	map.put("id", 101);// based on key it generates hashcode - index
+	map.put("Name", "Prashant");
+	map.put("City", "Blr");
+	map.put(1, 2);
+	System.out.println(map);
+	
+	Object object = map.get("id");
+	System.out.println(object);
+	
+	
+	
+	
+}
+}

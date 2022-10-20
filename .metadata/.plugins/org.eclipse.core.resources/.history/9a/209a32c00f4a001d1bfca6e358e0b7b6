@@ -1,0 +1,61 @@
+package com.ust.java8;
+
+import java.util.Arrays;
+import java.util.List;
+import java.util.stream.Collectors;
+import java.util.stream.Stream;
+
+public class StreamApiDemo {
+public static void main(String[] args) {
+	List<Integer> list = Arrays.asList(1,2,3,4,6,8);
+	
+	List<Employee> empList = Arrays.asList(
+			new Employee(101, "Sachin", Arrays.asList(111,2222)),
+			new Employee(103, "Amit", Arrays.asList(777,888)),
+			new Employee(102, "Pankaj", Arrays.asList(333,2245)),
+			new Employee(104, "Siva", Arrays.asList(9911,2277))
+		);
+	Stream<List<Employee>> of = Stream.of(empList);
+	Stream<Employee> stream = empList.stream();
+	System.out.println(stream);
+	System.out.println(of);
+	
+	empList.stream().filter(e->e.getName().startsWith("A")).collect(Collectors.toList());
+	
+}
+}
+
+class Employee{
+	private Integer id;
+	private String name;
+	private List<Integer> phones;
+	public Employee() {}
+	public Employee(Integer id, String name, List<Integer> phones) {
+		this.id = id;
+		this.name = name;
+		this.phones = phones;
+	}
+	public Integer getId() {
+		return id;
+	}
+	public void setId(Integer id) {
+		this.id = id;
+	}
+	public String getName() {
+		return name;
+	}
+	public void setName(String name) {
+		this.name = name;
+	}
+	public List<Integer> getPhones() {
+		return phones;
+	}
+	public void setPhones(List<Integer> phones) {
+		this.phones = phones;
+	}
+	@Override
+	public String toString() {
+		return "Employee [id=" + id + ", name=" + name + ", phones=" + phones + "]";
+	}
+	
+}

@@ -1,0 +1,16 @@
+package com.ust.oops;
+
+class P{
+	public void m1() {
+		
+	}
+	
+	public void m1(int id) {
+		
+	}
+}
+public class PolymorDemo {
+public static void main(String[] args) {
+	
+}
+}

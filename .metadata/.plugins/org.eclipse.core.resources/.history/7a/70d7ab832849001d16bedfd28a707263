@@ -1,0 +1,23 @@
+package com.test1;
+
+import static org.junit.Assert.*;
+
+import org.junit.Test;
+
+public class SquareJunitTest {
+
+	@Test
+	public void test() {
+		SuareTest t=new SuareTest();
+		int result = t.sqare(4);
+		assertEquals(16, result);
+		assertNotNull(result);
+	}
+	
+	public void testSayHello() {
+		SuareTest t=new SuareTest();
+		String result = t.sayHello("Amit");
+		assertEquals("HelloAmit", result);
+	}
+
+}

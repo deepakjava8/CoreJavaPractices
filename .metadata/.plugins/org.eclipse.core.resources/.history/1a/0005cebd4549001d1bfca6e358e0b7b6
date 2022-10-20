@@ -1,0 +1,56 @@
+package com.ust.generics;
+
+class Print<T>{
+	T t;
+	public Print(T t) {
+		this.t=t;
+	}
+	public void print() {
+		System.out.println(t);
+	}
+}
+
+class PrintIntegerNumber{
+	Integer integerNumber;
+	public PrintIntegerNumber(Integer integerNumber) {
+		this.integerNumber=integerNumber;
+	}
+	
+	public void print() {
+		System.out.println(integerNumber);
+	}
+}
+
+class PrintDoubleNumber{
+	Integer integerNumber;
+	public PrintDoubleNumber(Integer integerNumber) {
+		this.integerNumber=integerNumber;
+	}
+	
+	public void print() {
+		System.out.println(integerNumber);
+	}
+}
+
+class PrintStringNumber{
+	String integerNumber;
+	public PrintStringNumber(String integerNumber) {
+		this.integerNumber=integerNumber;
+	}
+	
+	public void print() {
+		System.out.println(integerNumber);
+	}
+}
+public class CustomGenericsDemo {
+public static void main(String[] args) {
+	PrintIntegerNumber pi=new PrintIntegerNumber(10);
+	pi.print();
+	
+	PrintDoubleNumber pd=new PrintDoubleNumber(1111);
+	pd.print();
+	
+	PrintStringNumber ps=new PrintStringNumber("dk");
+	ps.print();
+}
+}
